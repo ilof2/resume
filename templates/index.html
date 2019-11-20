@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>'
+    <title>CV Illia Papou</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="{{ url_for('static', filename = 'favicon.ico') }}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap/css/bootstrap.min.css') }}">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/font-awesome/css/font-awesome.css') }}">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="{{ url_for('static', filename= 'css/styles-2.css' ) }}">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile rounded-circle" src="{{ url_for('static', filename = 'img/profile.png') }}" alt="" style="width: 120px; height: auto;"/>
+                <h1 class="name">Illia Papou</h1>
+                <h3 class="tagline">Python-developer</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: ilof2700@gmail.com">ilof2700@gmail.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:733 965 298">+ 48 733 965 298</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/ilya-popov-14b906165/" target="_blank">LinkedIn</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/ilof2" target="_blank">GitHub</a></li>
+                    <li class="twitter"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/illia.papou" target="_blank">Facebook</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">BSc in Graphic and Computer Games Design</h4>
+                    <h5 class="meta"><a href="https://wspa.pl" target="_blank">Wyższa Szkoła Przedsiębiorczości i Administracji ( Lublin )</a></h5>
+                    <div class="time">Oct. 2019 - Present</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Radio communication, broadcasting and television systems ( Minsk )</h4>
+                    <h5 class="meta"><a href="http://bsac.by/" target="_blank">Belarusian State Academy of Communication</a></h5>
+                    <div class="time">Sep. 2016 - Jun. 2019</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>English <span class="lang-desc">(B1)</span></li>
+                    <li>Russian <span class="lang-desc">(C2)</span></li>
+                    <li>Polish <span class="lang-desc">(A2)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Guitar</li>
+                    <li>Tech</li>
+                    <li>Swimming</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p>I started programming at 16. I made simple templates using HTML and СSS. Soon, I switched to Python and studied C and C ++ at the university at the same time. I have a 10 months of commercial development experience. At the moment I am a first year student looking for work as a Python-developer (J0 - J2) in Lublin</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Junior Python-Developer</h3>
+                            <div class="time">Oct. 2018 - May 2019</div>
+                        </div><!--//upper-row-->
+                        <div class="company">HiQo Solutions, Minsk, Belarus</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                            Developed a billing system for the company.
+                            Stabilized the system,
+                            Write Optimized SQL queries,
+                            Organized the work of proxy-servers (for securly working with third-party APIs),
+                            Worked with third-party APIs (HelloSign, DocSign),
+                            Covered everything with tests,
+                            I had been establishing a connection between the backend and the frontend through the GraphQL and
+                            Worked with Terraform
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Pyton-Developer (Contributor)</h3>
+                            <div class="time">Aug. 2019 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">econdb.com</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p style="white-space: pre-line">I was engaged in scrabing, analysis and processing of data from government websites.
+                            Stabilized the system.
+                            Had Writing queries to the database
+                        Worked with "pandas", "requests", "sqlalchemy" and other libs </p>
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="intro">
+                    <p>I have a many projects, what are not storage on github. Many projects are not finished or too tiny to publish. Have some on GitHub. The biggest ones I've worked on: </p>
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title"><a href="#hook">HBS ( HiQo Billing System )</a></span> - <span class="project-tagline">Service for registering new customers, generating reports and setting prices for customers</span>
+                    
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://econdb.com" target="_blank">EconDB</a></span> -
+                    <span class="project-tagline">A service that processes and provides data on the economies of different countries</span>
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Python &amp; Django/Flask</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="85%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">SQL</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="65%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">RestAPI</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="40%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Git</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Linux</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">AWS</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="69%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">The site will develop further</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="{{ url_for('static', filename = 'plugins/jquery-1.11.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/main.js') }}"></script>
+</body>
+</html> 
+
